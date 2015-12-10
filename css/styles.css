@@ -1,0 +1,81 @@
+/* Fuente Amaranth */
+@font-face {font-family: 'Amaranth-Bold'; src:url("../fonts/Amaranth-Bold.otf");}
+@font-face {font-family: 'Amaranth-Italic'; src:url("../fonts/Amaranth-Italic.otf");}
+@font-face {font-family: 'Amaranth-Regular'; src:url("../fonts/Amaranth-Regular.otf");}
+/* Fuente Amaranth */
+body, html {
+	font-family: 'Amaranth-Regular' !important;
+	/*width: 100%;
+	height: 100%;
+	margin: 0;*/
+	padding-top: 46px;
+}
+nav {
+	opacity: 0.8 !important;
+	background: #000000 !important;
+	position: fixed;
+	width: 100%;
+	border-bottom: solid 2px white;
+	padding: 10px 10px 10px 10px;
+}
+section {
+	padding: 150px 0px 200px 0px;
+}
+footer {
+	/*background-color: #37EF96;*/
+	padding: 10px 0px 10px 0px;
+	margin-top: 70px !important;
+	background: #123249;
+}
+h1 {
+	text-align: center;
+	transition: 0.3s;
+	color: #FFA500 !important;
+	font: bold 70px verdana, sans-serif !important;
+	text-shadow: rgb(0,0,150) 3px 3px 5px;
+}
+h1:hover {
+	font-size: 90px !important;
+	transition: 0.3;
+}
+p {
+	padding-left: 20px;
+	font-size: 24px;
+	color: #EEE;
+} 
+.subtitulo {
+	color: #FFF;
+	font: bold 40px verdana, sans-serif !important;
+	text-shadow: rgb(0,0,150) 3px 3px 5px;
+}
+.text-color-orange:hover {
+	font-size: 24px;
+	transition: 0.3s;
+	color: #FFA500 !important;
+}
+button {
+	text-decoration: none !important;
+}
+.mostrar:hover {
+	font-size: 24px !important;
+	transition: 0.3s;
+	color: #FF4400 !important;
+}
+#home {
+	background: #E87400;
+	border-radius: 1%; 
+}
+#about {
+	background: #EF3937; 
+	border-radius: 1%;
+	color: #FFF;
+}
+#portfolio {
+	background: #E58437; 
+	border-radius: 1%;
+}
+#contacts {
+	background: #02D59B;
+	opacity: 0.9; 
+	border-radius: 2%;
+}
